@@ -78,7 +78,7 @@ namespace AskDefinex
                         builder =>
                         {
                             var corsUrl= _corsOrigins[1].ToString();
-                            builder.WithOrigins(corsUrl).AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithMethods("GET", "PUT", "POST", "DELETE", "UPDATE", "OPTIONS");
+                            builder.WithOrigins("http://104.154.140.175:4000").AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithMethods("GET", "PUT", "POST", "DELETE", "UPDATE", "OPTIONS");
                         });
 
                 });
