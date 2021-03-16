@@ -1,0 +1,852 @@
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Common\Mapper\BussinessMapper.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskAnswerModule\AnswerCreateModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskAnswerModule\AnswerDeleteModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskAnswerModule\AnswerDetailModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskAnswerModule\AnswerUpdateModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskBadgeModule\BadgeCreateModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskBadgeModule\BadgeDeleteModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskBadgeModule\BadgeDetailModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskBadgeModule\BadgeUpdateModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskCommentModule\CommentCreateModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskCommentModule\CommentDeleteModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskCommentModule\CommentDetailModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskCommentModule\CommentUpdateModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskLoginModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskQuestionModule\AllQuestionForMainModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskQuestionModule\QuestionCountModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskQuestionModule\QuestionCreateModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskQuestionModule\QuestionDeleteModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskQuestionModule\QuestionDetailModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskQuestionModule\QuestionIdModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskQuestionModule\QuestionSearchModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskQuestionModule\QuestionUpdateModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskRegistrationModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskTagModule\TagCreateModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskTagModule\TagUpdateModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskUserModule\AskUserCreateModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\AskUserModule\AskUserDetailModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\BaseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\BaseResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\ResponseContainerBusinessModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Model\UserContextUserDetailModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\AskAnswerService.cs
+AddToExternalTransaction 5
+AddToExternalTransaction -1
+CreateAnswer 4
+CreateAnswer -1
+UpdateAnswer 5
+UpdateAnswer -1
+DeleteAnswer 5
+DeleteAnswer -1
+AnswerUpdateUpVote 4
+AnswerUpdateUpVote -1
+AnswerUpdateDownVote 4
+AnswerUpdateDownVote -1
+GetAnswerById 4
+GetAnswerById -1
+GetAnswersByQuestionId 5
+GetAnswersByQuestionId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\AskAuthenticationService.cs
+AddToExternalTransaction 7
+AddToExternalTransaction -1
+AskLogin 4
+AskLogin -1
+LoginByRefreshToken 6
+LoginByRefreshToken -1
+LogOut 5
+LogOut -1
+Register 5
+Register -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\AskBadgeService.cs
+AddToExternalTransaction 7
+AddToExternalTransaction -1
+GetBadgeByUserId 20
+GetBadgeByUserId -1
+CreateBadge 5
+CreateBadge -1
+UpdateBadge 5
+UpdateBadge -1
+DeleteBadge 8
+DeleteBadge -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\AskCommentService.cs
+AddToExternalTransaction 6
+AddToExternalTransaction -1
+CreateComment 5
+CreateComment -1
+UpdateComment 24
+UpdateComment -1
+DeleteComment 8
+DeleteComment -1
+DeleteCommentByQuestionId 6
+DeleteCommentByQuestionId -1
+GetCommentsByQuestionId 5
+GetCommentsByQuestionId -1
+GetCommentsByAnswerId 10
+GetCommentsByAnswerId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\AskQuestionService.cs
+AddToExternalTransaction 5
+AddToExternalTransaction -1
+SearchQuestion 23
+SearchQuestion -1
+CreateQuestion 5
+CreateQuestion -1
+CheckIfQuestionExist 4
+CheckIfQuestionExist -1
+UpdateQuestion 4
+UpdateQuestion -1
+DeleteQuestion 4
+DeleteQuestion -1
+GetAllQuestions 6
+GetAllQuestions -1
+GetQuestionById 5
+GetQuestionById -1
+QuestionUpdateUpVote 7
+QuestionUpdateUpVote -1
+QuestionUpdateDownVote 5
+QuestionUpdateDownVote -1
+QuestionIsClosedById 5
+QuestionIsClosedById -1
+GetAllQuestionsForMain 26
+GetAllQuestionsForMain -1
+GetQuestionWithAnswers 10
+GetQuestionWithAnswers -1
+GetUnansweredQuestions 5
+GetUnansweredQuestions -1
+GetMostUpVotedQuestions 10
+GetMostUpVotedQuestions -1
+GetQuestionsByUserId 6
+GetQuestionsByUserId -1
+GetQuestionCountByUserId 8
+GetQuestionCountByUserId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\AskTagService.cs
+AddToExternalTransaction 4
+AddToExternalTransaction -1
+CreateTag 4
+CreateTag -1
+UpdateTag 4
+UpdateTag -1
+DeleteTag 17
+DeleteTag -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\AskUserService.cs
+AddToExternalTransaction 5
+AddToExternalTransaction -1
+GetUser 7
+GetUser -1
+GetUserById 7
+GetUserById -1
+GetUserByEmail 5
+GetUserByEmail -1
+CreateUser 5
+CreateUser -1
+DeleteUserById 27
+DeleteUserById -1
+CheckIfUserExist 5
+CheckIfUserExist -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\Interface\IAskAnswerService.cs
+CreateAnswer 5
+CreateAnswer -1
+UpdateAnswer 5
+UpdateAnswer -1
+DeleteAnswer 7
+DeleteAnswer -1
+AnswerUpdateUpVote 4
+AnswerUpdateUpVote -1
+AnswerUpdateDownVote 5
+AnswerUpdateDownVote -1
+GetAnswerById 17
+GetAnswerById -1
+GetAnswersByQuestionId 11
+GetAnswersByQuestionId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\Interface\IAskAuthenticationService.cs
+AskLogin 4
+AskLogin -1
+LoginByRefreshToken 4
+LoginByRefreshToken -1
+LogOut 4
+LogOut -1
+Register 16
+Register -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\Interface\IAskBadgeService.cs
+GetBadgeByUserId 5
+GetBadgeByUserId -1
+CreateBadge 4
+CreateBadge -1
+UpdateBadge 5
+UpdateBadge -1
+DeleteBadge 4
+DeleteBadge -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\Interface\IAskCommentService.cs
+CreateComment 6
+CreateComment -1
+UpdateComment 16
+UpdateComment -1
+DeleteComment 4
+DeleteComment -1
+DeleteCommentByQuestionId 4
+DeleteCommentByQuestionId -1
+GetCommentsByQuestionId 5
+GetCommentsByQuestionId -1
+GetCommentsByAnswerId 11
+GetCommentsByAnswerId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\Interface\IAskQuestionService.cs
+SearchQuestion 5
+SearchQuestion -1
+CreateQuestion 73
+CreateQuestion -1
+CheckIfQuestionExist 5
+CheckIfQuestionExist -1
+UpdateQuestion 5
+UpdateQuestion -1
+DeleteQuestion 5
+DeleteQuestion -1
+GetAllQuestions 5
+GetAllQuestions -1
+GetQuestionById 9
+GetQuestionById -1
+QuestionUpdateUpVote 5
+QuestionUpdateUpVote -1
+QuestionUpdateDownVote 10
+QuestionUpdateDownVote -1
+QuestionIsClosedById 6
+QuestionIsClosedById -1
+GetAllQuestionsForMain 7
+GetAllQuestionsForMain -1
+GetQuestionWithAnswers 5
+GetQuestionWithAnswers -1
+GetUnansweredQuestions 7
+GetUnansweredQuestions -1
+GetMostUpVotedQuestions 5
+GetMostUpVotedQuestions -1
+GetQuestionsByUserId 7
+GetQuestionsByUserId -1
+GetQuestionCountByUserId 4
+GetQuestionCountByUserId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\Interface\IAskTagService.cs
+CreateTag 4
+CreateTag -1
+UpdateTag 6
+UpdateTag -1
+DeleteTag 46
+DeleteTag -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\Interface\IAskUserService.cs
+GetUser 5
+GetUser -1
+GetUserById 26
+GetUserById -1
+GetUserByEmail 4
+GetUserByEmail -1
+CreateUser 25
+CreateUser -1
+DeleteUserById 4
+DeleteUserById -1
+CheckIfUserExist 4
+CheckIfUserExist -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\Interface\IRecaptchaValidatorService.cs
+IsRecaptchaValid 4
+IsRecaptchaValid -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\RecaptchaValidatorService.cs
+IsRecaptchaValid 20
+IsRecaptchaValid -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Business\Service\UserContextService.cs
+AddToExternalTransaction 7
+AddToExternalTransaction -1
+GetUser 5
+GetUser -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Common\Const\MessageCodes.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Common\Const\UserTypes.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Common\Extension\ElasticSearchExtension.cs
+AddElasticsearch 7
+AddElasticsearch -1
+AddDefaultMappings 4
+AddDefaultMappings -1
+CreateIndex 43
+CreateIndex -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Common\Extension\SecurityMiddleware.cs
+InvokeAsync 5
+InvokeAsync -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Common\Extension\StringExtension.cs
+ToInt 5
+ToInt -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Common\Helper\ConfigHelper.cs
+LoadConfig 17
+LoadConfig -1
+GetConfig 5
+GetConfig -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Common\Helper\CryptoHelper.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Common\Helper\HttpContextHelper.cs
+GetHttpContext 10
+GetHttpContext -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Common\Helper\IHttpContextHelper.cs
+GetHttpContext 5
+GetHttpContext -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Common\Models\AppSettings.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Common\Models\HttpContextModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\AskAnswerDAO.cs
+CreateAnswer 6
+CreateAnswer -1
+UpdateAnswer 7
+UpdateAnswer -1
+DeleteAnswer 24
+DeleteAnswer -1
+AnswerUpdateUpVote 5
+AnswerUpdateUpVote -1
+AnswerUpdateDownVote 7
+AnswerUpdateDownVote -1
+GetAnswerById 9
+GetAnswerById -1
+GetAnswersByQuestionId 64
+GetAnswersByQuestionId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\AskAuthenticationDAO.cs
+GetAskLoginUser 8
+GetAskLoginUser -1
+RemoveRefreshToken 5
+RemoveRefreshToken -1
+UpdateRefreshToken 5
+UpdateRefreshToken -1
+SetRefreshToken 5
+SetRefreshToken -1
+GetLoginUserByRefreshToken 6
+GetLoginUserByRefreshToken -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\AskBadgeDAO.cs
+GetBadgeByUserId 8
+GetBadgeByUserId -1
+CreateBadge 8
+CreateBadge -1
+UpdateBadge 13
+UpdateBadge -1
+DeleteBadge 22
+DeleteBadge -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\AskCommentDAO.cs
+CreateComment 9
+CreateComment -1
+UpdateComment 42
+UpdateComment -1
+DeleteComment 7
+DeleteComment -1
+DeleteCommentByQuestionId 7
+DeleteCommentByQuestionId -1
+GetCommentsByQuestionId 7
+GetCommentsByQuestionId -1
+GetCommentsByAnswerId 6
+GetCommentsByAnswerId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\AskQuestionDAO.cs
+CreateQuestion 33
+CreateQuestion -1
+GetQuestionByHeader 7
+GetQuestionByHeader -1
+UpdateQuestion 6
+UpdateQuestion -1
+DeleteQuestion 70
+DeleteQuestion -1
+GetAllQuestions 5
+GetAllQuestions -1
+GetQuestionById 6
+GetQuestionById -1
+QuestionUpdateUpVote 10
+QuestionUpdateUpVote -1
+QuestionUpdateDownVote 6
+QuestionUpdateDownVote -1
+QuestionIsClosedById 5
+QuestionIsClosedById -1
+GetAllQuestionsForMain 49
+GetAllQuestionsForMain -1
+GetQuestionWithAnswers 12
+GetQuestionWithAnswers -1
+GetUnansweredQuestions 9
+GetUnansweredQuestions -1
+GetMostUpVotedQuestions 8
+GetMostUpVotedQuestions -1
+GetQuestionsByUserId 44
+GetQuestionsByUserId -1
+GetQuestionCountByUserId 6
+GetQuestionCountByUserId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\AskTagDAO.cs
+CreateTag 6
+CreateTag -1
+UpdateTag 6
+UpdateTag -1
+DeleteTag 6
+DeleteTag -1
+GetAllTags 17
+GetAllTags -1
+GetTagById 6
+GetTagById -1
+CreateQuestion 6
+CreateQuestion -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\AskUserDAO.cs
+GetUser 5
+GetUser -1
+GetUserById 7
+GetUserById -1
+GetUserByEmail 6
+GetUserByEmail -1
+GetUserWithUserNameAndEmail 5
+GetUserWithUserNameAndEmail -1
+DeleteUserById 8
+DeleteUserById -1
+CreateUser 6
+CreateUser -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\DatabaseLogManagerDAO.cs
+WriteLog 5
+WriteLog -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\Interface\IAskAnswerDAO.cs
+CreateAnswer 4
+CreateAnswer -1
+UpdateAnswer 4
+UpdateAnswer -1
+DeleteAnswer 5
+DeleteAnswer -1
+AnswerUpdateUpVote 4
+AnswerUpdateUpVote -1
+AnswerUpdateDownVote 4
+AnswerUpdateDownVote -1
+GetAnswerById 5
+GetAnswerById -1
+GetAnswersByQuestionId 5
+GetAnswersByQuestionId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\Interface\IAskAuthenticationDAO.cs
+GetAskLoginUser 14
+GetAskLoginUser -1
+GetLoginUserByRefreshToken 6
+GetLoginUserByRefreshToken -1
+RemoveRefreshToken 5
+RemoveRefreshToken -1
+UpdateRefreshToken 4
+UpdateRefreshToken -1
+SetRefreshToken 8
+SetRefreshToken -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\Interface\IAskBadgeDAO.cs
+GetBadgeByUserId 6
+GetBadgeByUserId -1
+CreateBadge 9
+CreateBadge -1
+UpdateBadge 8
+UpdateBadge -1
+DeleteBadge 9
+DeleteBadge -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\Interface\IAskCommentDAO.cs
+CreateComment 16
+CreateComment -1
+UpdateComment 5
+UpdateComment -1
+DeleteComment 5
+DeleteComment -1
+DeleteCommentByQuestionId 18
+DeleteCommentByQuestionId -1
+GetCommentsByQuestionId 5
+GetCommentsByQuestionId -1
+GetCommentsByAnswerId 5
+GetCommentsByAnswerId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\Interface\IAskQuestionDAO.cs
+CreateQuestion 5
+CreateQuestion -1
+GetQuestionByHeader 4
+GetQuestionByHeader -1
+UpdateQuestion 4
+UpdateQuestion -1
+DeleteQuestion 9
+DeleteQuestion -1
+GetAllQuestions 8
+GetAllQuestions -1
+GetQuestionById 8
+GetQuestionById -1
+QuestionUpdateUpVote 18
+QuestionUpdateUpVote -1
+QuestionUpdateDownVote 10
+QuestionUpdateDownVote -1
+QuestionIsClosedById 16
+QuestionIsClosedById -1
+GetAllQuestionsForMain 5
+GetAllQuestionsForMain -1
+GetQuestionWithAnswers 4
+GetQuestionWithAnswers -1
+GetUnansweredQuestions 5
+GetUnansweredQuestions -1
+GetMostUpVotedQuestions 25
+GetMostUpVotedQuestions -1
+GetQuestionsByUserId 5
+GetQuestionsByUserId -1
+GetQuestionCountByUserId 6
+GetQuestionCountByUserId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\Interface\IAskTagDAO.cs
+CreateTag 5
+CreateTag -1
+UpdateTag 6
+UpdateTag -1
+DeleteTag 5
+DeleteTag -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\Interface\IAskUserDAO.cs
+GetUser 6
+GetUser -1
+GetUserById 7
+GetUserById -1
+GetUserByEmail 5
+GetUserByEmail -1
+GetUserWithUserNameAndEmail 4
+GetUserWithUserNameAndEmail -1
+DeleteUserById 4
+DeleteUserById -1
+CreateUser 6
+CreateUser -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\Interface\IDatabaseLogManagerDAO.cs
+WriteLog 16
+WriteLog -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\Interface\IUserContextDAO.cs
+GetUser 13
+GetUser -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\DAO\UserContextDAO.cs
+GetUser 5
+GetUser -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Model\Data\AskAnswerDAOModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Model\Data\AskBadgeDAOModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Model\Data\AskCommentDAOModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Model\Data\AskLoginDAOModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Model\Data\AskQuestionDAOModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Model\Data\AskTagDAOModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Model\Data\AskUserDAOModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Model\Data\BaseDAOModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Model\Data\DataBaseLogDAOModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Model\Data\UserContextUserDAOModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Model\Data\UserContextUserRoleModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\DataAccess\Query\MysqlQueryTemplate.cs
+GetQuery 6
+GetQuery -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Program.cs
+Main 6
+Main -1
+ConfigureLogging 7
+ConfigureLogging -1
+ConfigureElasticSink 6
+ConfigureElasticSink -1
+CreateHost 5
+CreateHost -1
+CreateHostBuilder 25
+CreateHostBuilder -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Common\Const\RestErrorCodes.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Common\Filter\CustomExceptionFilter.cs
+OnException 6
+OnException -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Common\Mapper\RestMapper.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Controller\AskAnswerController.cs
+CreateAnswer 7
+CreateAnswer -1
+UpdateAnswer 6
+UpdateAnswer -1
+DeleteAnswer 9
+DeleteAnswer -1
+AnswerUpdateUpVote 16
+AnswerUpdateUpVote -1
+AnswerUpdateDownVote 6
+AnswerUpdateDownVote -1
+GetAnswerById 8
+GetAnswerById -1
+GetAnswersByQuestionId 13
+GetAnswersByQuestionId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Controller\AskAuthenticationController.cs
+Login 8
+Login -1
+Logout 5
+Logout -1
+RefreshAccessToken 8
+RefreshAccessToken -1
+Register 6
+Register -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Controller\AskBadgeController.cs
+GetBadgeByUserId 27
+GetBadgeByUserId -1
+CreateBadge 6
+CreateBadge -1
+UpdateBadge 6
+UpdateBadge -1
+DeleteBadge 7
+DeleteBadge -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Controller\AskCommentController.cs
+CreateComment 7
+CreateComment -1
+UpdateComment 7
+UpdateComment -1
+DeleteComment 8
+DeleteComment -1
+GetCommentsByQuestionId 7
+GetCommentsByQuestionId -1
+GetCommentsByAnswerId 6
+GetCommentsByAnswerId -1
+DeleteCommentByQuestionId 7
+DeleteCommentByQuestionId -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Controller\AskQuestionController.cs
+CreateQuestion 18
+CreateQuestion -1
+UpdateQuestion 7
+UpdateQuestion -1
+DeleteQuestion 22
+DeleteQuestion -1
+GetAllQuestions 5
+GetAllQuestions -1
+GetQuestionById 26
+GetQuestionById -1
+QuestionUpdateUpVote 6
+QuestionUpdateUpVote -1
+QuestionUpdateDownVote 5
+QuestionUpdateDownVote -1
+QuestionIsClosedById 6
+QuestionIsClosedById -1
+GetAllQuestionsForMain 8
+GetAllQuestionsForMain -1
+GetQuestionWithAnswers 6
+GetQuestionWithAnswers -1
+GetUnansweredQuestions 7
+GetUnansweredQuestions -1
+GetMostUpVotedQuestions 7
+GetMostUpVotedQuestions -1
+GetQuestionsByUserId 5
+GetQuestionsByUserId -1
+GetQuestionCountByUserId 50
+GetQuestionCountByUserId -1
+ReIndex 8
+ReIndex -1
+Find 16
+Find -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Controller\AskTagController.cs
+CreateTag 15
+CreateTag -1
+UpdateTag 7
+UpdateTag -1
+DeleteTag 27
+DeleteTag -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Controller\AskUserController.cs
+GetUser 7
+GetUser -1
+GetUserById 6
+GetUserById -1
+GetUserByEmail 6
+GetUserByEmail -1
+CreateUser 7
+CreateUser -1
+DeleteUserById 25
+DeleteUserById -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Controller\BaseController.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskAnswerModule\AnswerCreateRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskAnswerModule\AnswerDeleteRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskAnswerModule\AnswerDetailRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskAnswerModule\AnswerUpdateRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskBadgeModule\BadgeCreateRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskBadgeModule\BadgeDeleteRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskBadgeModule\BadgeDetailRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskBadgeModule\BadgeUpdateRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskCommentModule\CommentCreateRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskCommentModule\CommentDeleteRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskCommentModule\CommentUpdateRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskLoginRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskQuestionModule\AllQuestionForMainRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskQuestionModule\QuestionCreateRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskQuestionModule\QuestionDeleteRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskQuestionModule\QuestionDetailRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskQuestionModule\QuestionListByUserIdRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskQuestionModule\QuestionUpdateRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskRegistrationRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskTagModule\TagCreateRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskTagModule\TagDeleteRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskTagModule\TagUpdateRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskUserModule\AskDeleteUserByIdRequest.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskUserModule\AskGetUserByEmailRequest.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskUserModule\AskGetUserByIdRequest.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskUserModule\AskUserCreateRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\AskUserModule\AskUserDetailRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Request\Auth\RefreshTokenRequestModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskAnswerModule\AnswerCreateResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskAnswerModule\AnswerDeleteResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskAnswerModule\AnswerDetailResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskAnswerModule\AnswerUpdateResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskBadgeModule\BadgeCreateResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskBadgeModule\BadgeDeleteResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskBadgeModule\BadgeDetailResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskBadgeModule\BadgeUpdateResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskCommentModule\CommentCreateResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskCommentModule\CommentDeleteResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskCommentModule\CommentDetailResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskCommentModule\CommentUpdateResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskLoginResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskQuestionModule\QuestionCountResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskQuestionModule\QuestionCreateResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskQuestionModule\QuestionDeleteResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskQuestionModule\QuestionDetailResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskQuestionModule\QuestionSearchResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskQuestionModule\QuestionUpdateResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskTagModule\TagCreateResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskTagModule\TagDeleteResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskTagModule\TagUpdateResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskUserModule\AskUserCreateResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\AskUserModule\AskUserDetailResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\CommonResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\EmptyResponseModel.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\RecaptchaResponse.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Rest\Model\Response\RestResponseContainer.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\Startup.cs
+ConfigureServices 4
+ConfigureServices -1
+Configure 39
+Configure -1
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\obj\Debug\netcoreapp3.1\AskDefinex.AssemblyInfo.cs
+
+C:\Users\ErtugrulSen\Desktop\visual Studio Project\askDefinex\askdefinex-core\AskDefinex\obj\Debug\netcoreapp3.1\AskDefinex.MvcApplicationPartsAssemblyInfo.cs
+

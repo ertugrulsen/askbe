@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Business\Common\Attribute\**" />
+    <Compile Remove="Business\Common\Const\**" />
+    <Compile Remove="Business\Common\Extension\**" />
+    <Compile Remove="Business\Common\Filter\**" />
+    <Compile Remove="Business\Common\Handler\**" />
+    <Compile Remove="Business\Common\Helper\**" />
+    <Compile Remove="Common\CustomException\**" />
+    <Compile Remove="Common\Enum\**" />
+    <Compile Remove="Grpc\**" />
+    <Compile Remove="Integration\**" />
+    <Content Remove="Business\Common\Attribute\**" />
+    <Content Remove="Business\Common\Const\**" />
+    <Content Remove="Business\Common\Extension\**" />
+    <Content Remove="Business\Common\Filter\**" />
+    <Content Remove="Business\Common\Handler\**" />
+    <Content Remove="Business\Common\Helper\**" />
+    <Content Remove="Common\CustomException\**" />
+    <Content Remove="Common\Enum\**" />
+    <Content Remove="Grpc\**" />
+    <Content Remove="Integration\**" />
+    <EmbeddedResource Remove="Business\Common\Attribute\**" />
+    <EmbeddedResource Remove="Business\Common\Const\**" />
+    <EmbeddedResource Remove="Business\Common\Extension\**" />
+    <EmbeddedResource Remove="Business\Common\Filter\**" />
+    <EmbeddedResource Remove="Business\Common\Handler\**" />
+    <EmbeddedResource Remove="Business\Common\Helper\**" />
+    <EmbeddedResource Remove="Common\CustomException\**" />
+    <EmbeddedResource Remove="Common\Enum\**" />
+    <EmbeddedResource Remove="Grpc\**" />
+    <EmbeddedResource Remove="Integration\**" />
+    <None Remove="Business\Common\Attribute\**" />
+    <None Remove="Business\Common\Const\**" />
+    <None Remove="Business\Common\Extension\**" />
+    <None Remove="Business\Common\Filter\**" />
+    <None Remove="Business\Common\Handler\**" />
+    <None Remove="Business\Common\Helper\**" />
+    <None Remove="Common\CustomException\**" />
+    <None Remove="Common\Enum\**" />
+    <None Remove="Grpc\**" />
+    <None Remove="Integration\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="DefineXwork.Library.Business" Version="1.0.4" />
+    <PackageReference Include="DefineXwork.Library.Caching.MemoryCache" Version="1.0.0" />
+    <PackageReference Include="DefineXwork.Library.DataAccess" Version="1.0.6" />
+    <PackageReference Include="DefineXwork.Library.Integration" Version="1.0.3" />
+    <PackageReference Include="DefineXwork.Library.Logging.Database" Version="1.0.5" />
+    <PackageReference Include="DefineXwork.Library.Security.Common" Version="1.0.1" />
+    <PackageReference Include="DefineXwork.Library.Security.Jwt" Version="1.0.1" />
+    <PackageReference Include="DefineXwork.Library.Transaction" Version="1.0.0" />
+    <PackageReference Include="DefineXwork.Library.Utility.Swagger" Version="1.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="NEST" Version="7.11.1" />
+	<PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+	<PackageReference Include="Serilog.Enrichers.Environment" Version="2.1.3" />
+	<PackageReference Include="Serilog.Exceptions" Version="6.0.0" />
+	<PackageReference Include="Serilog.Sinks.Debug" Version="1.0.1" />
+	<PackageReference Include="Serilog.Sinks.Async" Version="1.4.0" />
+	<PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.2.0" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Mapper\" />
+    <Folder Include="DataAccess\Common\Const\" />
+    <Folder Include="DataAccess\Common\Enum\" />
+    <Folder Include="DataAccess\Common\Extension\" />
+    <Folder Include="DataAccess\Common\Handler\" />
+    <Folder Include="DataAccess\Common\Helper\" />
+    <Folder Include="DataAccess\Common\Mapper\" />
+    <Folder Include="DataAccess\Common\Attribute\" />
+    <Folder Include="Rest\Common\Attribute\" />
+    <Folder Include="Rest\Common\Enum\" />
+    <Folder Include="Rest\Common\Extension\" />
+    <Folder Include="Rest\Common\Handler\" />
+    <Folder Include="Rest\Common\Helper\" />
+  </ItemGroup>
+
+
+</Project>

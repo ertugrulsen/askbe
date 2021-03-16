@@ -1,0 +1,1398 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.9.0.0",
+        "fileVersion": "3.9.0-6.21123.28 (0ffb6577)",
+        "semanticVersion": "3.9.0",
+        "language": "en-GB"
+      },
+      "results": [
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Business/Service/AskAnswerService.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 1,
+                  "endLine": 12,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskAnswerDAO' to match pascal case naming rules, consider using 'AskAnswerDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/AskAnswerDAO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskAuthenticationDAO' to match pascal case naming rules, consider using 'AskAuthenticationDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/AskAuthenticationDAO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskBadgeDAO' to match pascal case naming rules, consider using 'AskBadgeDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/AskBadgeDAO.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskCommentDAO' to match pascal case naming rules, consider using 'AskCommentDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/AskCommentDAO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3376",
+          "level": "warning",
+          "message": "Make this class name end with 'Attribute'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Common/Filter/CustomExceptionFilter.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 18,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskQuestionDAO' to match pascal case naming rules, consider using 'AskQuestionDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/AskQuestionDAO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/AskAuthenticationDAO.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "endLine": 5,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/AskAuthenticationDAO.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 1,
+                  "endLine": 6,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskAnswerDAOModel' to match pascal case naming rules, consider using 'AskAnswerDaoModel'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/AskAnswerDAOModel.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskTagDAO' to match pascal case naming rules, consider using 'AskTagDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/AskTagDAO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskBadgeDAOModel' to match pascal case naming rules, consider using 'AskBadgeDaoModel'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/AskBadgeDAOModel.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskCommentDAOModel' to match pascal case naming rules, consider using 'AskCommentDaoModel'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/AskCommentDAOModel.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskUserDAO' to match pascal case naming rules, consider using 'AskUserDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/AskUserDAO.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskLoginDAOModel' to match pascal case naming rules, consider using 'AskLoginDaoModel'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/AskLoginDAOModel.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'IAskAnswerDAO' to match pascal case naming rules, consider using 'IAskAnswerDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/Interface/IAskAnswerDAO.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 22,
+                  "endLine": 7,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'IAskAuthenticationDAO' to match pascal case naming rules, consider using 'IAskAuthenticationDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/Interface/IAskAuthenticationDAO.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 22,
+                  "endLine": 7,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'IAskBadgeDAO' to match pascal case naming rules, consider using 'IAskBadgeDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/Interface/IAskBadgeDAO.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'DatabaseLogManagerDAO' to match pascal case naming rules, consider using 'DatabaseLogManagerDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/DatabaseLogManagerDAO.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'IAskCommentDAO' to match pascal case naming rules, consider using 'IAskCommentDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/Interface/IAskCommentDAO.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 22,
+                  "endLine": 7,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'IAskQuestionDAO' to match pascal case naming rules, consider using 'IAskQuestionDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/Interface/IAskQuestionDAO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 22,
+                  "endLine": 9,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'IAskTagDAO' to match pascal case naming rules, consider using 'IAskTagDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/Interface/IAskTagDAO.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'IAskUserDAO' to match pascal case naming rules, consider using 'IAskUserDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/Interface/IAskUserDAO.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'IDatabaseLogManagerDAO' to match pascal case naming rules, consider using 'IDatabaseLogManagerDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/Interface/IDatabaseLogManagerDAO.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/UserContextDAO.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "endLine": 5,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/AskAnswerDAOModel.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskQuestionDAOModel' to match pascal case naming rules, consider using 'AskQuestionDaoModel'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/AskQuestionDAOModel.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/AskQuestionDAOModel.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'IUserContextDAO' to match pascal case naming rules, consider using 'IUserContextDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/Interface/IUserContextDAO.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskTagDAOModel' to match pascal case naming rules, consider using 'AskTagDaoModel'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/AskTagDAOModel.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'BaseDAOModel' to match pascal case naming rules, consider using 'BaseDaoModel'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/BaseDAOModel.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AskUserDAOModel' to match pascal case naming rules, consider using 'AskUserDaoModel'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/AskUserDAOModel.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'UserContextDAO' to match pascal case naming rules, consider using 'UserContextDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/DAO/UserContextDAO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'DataBaseLogDAOModel' to match pascal case naming rules, consider using 'DataBaseLogDaoModel'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/DataBaseLogDAOModel.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Common/Filter/CustomExceptionFilter.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'UserContextUserDAOModel' to match pascal case naming rules, consider using 'UserContextUserDaoModel'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Model/Data/UserContextUserDAOModel.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Controller/AskQuestionController.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Controller/AskQuestionController.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 1,
+                  "endLine": 6,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Controller/AskQuestionController.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 1,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionCountResponseModel.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionCountResponseModel.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 1,
+                  "endLine": 2,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionCountResponseModel.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionCountResponseModel.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionDetailResponseModel.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionDetailResponseModel.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "endLine": 5,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionDetailResponseModel.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 1,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionSearchResponseModel.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionSearchResponseModel.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionSearchResponseModel.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionUpdateResponseModel.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionUpdateResponseModel.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 1,
+                  "endLine": 2,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionUpdateResponseModel.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Rest/Model/Response/AskQuestionModule/QuestionUpdateResponseModel.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2068",
+          "level": "warning",
+          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/DataAccess/Query/MysqlQueryTemplate.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 66,
+                  "endLine": 25,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4792",
+          "level": "warning",
+          "message": "Make sure that this logger's configuration is safe.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Program.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 26,
+                  "endLine": 28,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1905",
+          "level": "warning",
+          "message": "Remove this unnecessary cast to 'int'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Business/Service/AskCommentService.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 43,
+                  "endLine": 72,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4792",
+          "level": "warning",
+          "message": "Make sure that this logger's configuration is safe.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Startup.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 17,
+                  "endLine": 149,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1905",
+          "level": "warning",
+          "message": "Remove this unnecessary cast to 'int'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Business/Service/AskQuestionService.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 45,
+                  "endLine": 77,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1905",
+          "level": "warning",
+          "message": "Remove this unnecessary cast to 'int'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Business/Service/AskQuestionService.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 43,
+                  "endLine": 135,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'createIndexResponse'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ErtugrulSen/Desktop/visual%20Studio%20Project/askDefinex/askdefinex-core/AskDefinex/Common/Extension/ElasticSearchExtension.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 17,
+                  "endLine": 43,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1128": {
+          "id": "S1128",
+          "shortDescription": "Unused \"using\" should be removed",
+          "fullDescription": "Although unnecessary using won't change anything to the produced application, removing them:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1128",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1905": {
+          "id": "S1905",
+          "shortDescription": "Redundant casts should not be used",
+          "fullDescription": "Unnecessary casting expressions make the code harder to read and understand.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1905",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S2068": {
+          "id": "S2068",
+          "shortDescription": "Hard-coded credentials are security-sensitive",
+          "fullDescription": "Because it is easy to extract strings from an application source code or binary, credentials should not be hard-coded. This is particularly true for applications that are distributed or that are open-source.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2068",
+          "properties": {
+            "category": "Blocker Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "S3376": {
+          "id": "S3376",
+          "shortDescription": "Attribute, EventArgs, and Exception type names should end with the type being extended",
+          "fullDescription": "Adherence to the standard naming conventions makes your code not only more readable, but more usable. For instance, class FirstAttribute : Attribute can be used simply with First, but you must use the full name for class AttributeOne : Attribute.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3376",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S4792": {
+          "id": "S4792",
+          "shortDescription": "Configuring loggers is security-sensitive",
+          "fullDescription": "Configuring loggers is security-sensitive. It has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4792",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "NotConfigurable"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

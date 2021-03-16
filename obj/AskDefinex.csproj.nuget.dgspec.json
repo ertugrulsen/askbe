@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ErtugrulSen\\Desktop\\visual Studio Project\\AskDefinex\\askdefinex-core\\AskDefinex.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ErtugrulSen\\Desktop\\visual Studio Project\\AskDefinex\\askdefinex-core\\AskDefinex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ErtugrulSen\\Desktop\\visual Studio Project\\AskDefinex\\askdefinex-core\\AskDefinex.csproj",
+        "projectName": "AskDefinex",
+        "projectPath": "C:\\Users\\ErtugrulSen\\Desktop\\visual Studio Project\\AskDefinex\\askdefinex-core\\AskDefinex.csproj",
+        "packagesPath": "C:\\Users\\ErtugrulSen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ErtugrulSen\\Desktop\\visual Studio Project\\AskDefinex\\askdefinex-core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ErtugrulSen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ErtugrulSen\\Desktop\\visual Studio Project\\packages": {},
+          "http://definexappsrv.westeurope.cloudapp.azure.com:9080/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "DefineXwork.Library.Business": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "DefineXwork.Library.Caching.MemoryCache": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "DefineXwork.Library.DataAccess": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "DefineXwork.Library.Integration": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "DefineXwork.Library.Logging.Database": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "DefineXwork.Library.Security.Common": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DefineXwork.Library.Security.Jwt": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DefineXwork.Library.Transaction": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "DefineXwork.Library.Utility.Swagger": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.11.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

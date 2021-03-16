@@ -1,0 +1,9 @@
+exported 106 
+unsupported 62 
+TryStatement 47
+AsyncKeyword 8
+SimpleLambdaExpression 3
+LogicalOrExpression 1
+DeclarationExpression 1
+ConditionalAccessExpression 2
+
